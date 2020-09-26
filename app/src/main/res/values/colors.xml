@@ -1,6 +1,33 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#6200EE</color>
-    <color name="colorPrimaryDark">#3700B3</color>
-    <color name="colorAccent">#03DAC5</color>
+    <!--Color palette-->
+    <color name="reez_white_50">#ffffff</color>
+
+    <color name="reez_black_800">#121212</color>
+    <color name="reez_black_900">#000000</color>
+
+    <color name="reez_blue_50">#eef0f2</color>
+    <color name="reez_blue_100">#d2dbe0</color>
+    <color name="reez_blue_200">#adbbc4</color>
+    <color name="reez_blue_300">#8ca2ae</color>
+    <color name="reez_blue_600">#4a6572</color>
+    <color name="reez_blue_700">#344955</color>
+    <color name="reez_blue_800">#232f34</color>
+
+    <color name="reez_orange_300">#fbd790</color>
+    <color name="reez_orange_400">#f9be64</color>
+    <color name="reez_orange_500">#f9aa33</color>
+
+    <color name="reez_red_200">#cf7779</color>
+    <color name="reez_red_400">#ff4c5d</color>
+
+    <color name="reez_white_50_alpha_060">#99ffffff</color>
+
+    <color name="reez_blue_50_alpha_060">#99eef0f2</color>
+
+    <color name="reez_black_900_alpha_020">#33000000</color>
+    <color name="reez_black_900_alpha_087">#de000000</color>
+    <color name="reez_black_900_alpha_060">#99000000</color>
+
+    <color name="nav_bar">@color/reez_black_900_alpha_020</color>
 </resources>

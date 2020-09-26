@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "194618996742",
+    "firebase_url": "https://reez-87f36.firebaseio.com",
+    "project_id": "reez-87f36",
+    "storage_bucket": "reez-87f36.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:194618996742:android:9e0c428a70865faaa32b87",
+        "android_client_info": {
+          "package_name": "com.regency.app.reez"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "194618996742-ioifvb3fl8kp9d69pcpdnhrgq7jucdfv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDZ5NpAbjR1ur_EYpZInSJH_UiS6lERQSc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "194618996742-ioifvb3fl8kp9d69pcpdnhrgq7jucdfv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

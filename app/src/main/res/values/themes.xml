@@ -18,30 +18,30 @@
 
         <item name="android:colorBackground">@color/reez_blue_50</item>
         <item name="colorSurface">@color/reez_white_50</item>
-        <item name="colorPrimarySurfaceVariant">?attr/colorPrimaryVariant</item>
+<!--        <item name="colorPrimarySurfaceVariant">?attr/colorPrimaryVariant</item>-->
         <item name="colorError">@color/reez_red_400</item>
 
         <item name="scrimBackground">@color/reez_white_50_alpha_060</item>
         <item name="android:statusBarColor">@color/reez_blue_50_alpha_060</item>
         <item name="android:navigationBarColor">@color/nav_bar</item>
 
-        <item name="shapeAppearanceSmallComponent">@style/ShapeAppearance.Reply.SmallComponent</item>
-        <item name="shapeAppearanceMediumComponent">@style/ShapeAppearance.Reply.MediumComponent</item>
-        <item name="shapeAppearanceLargeComponent">@style/ShapeAppearance.Reply.LargeComponent</item>
+        <item name="shapeAppearanceSmallComponent">@style/ShapeAppearance.Reez.SmallComponent</item>
+        <item name="shapeAppearanceMediumComponent">@style/ShapeAppearance.Reez.MediumComponent</item>
+        <item name="shapeAppearanceLargeComponent">@style/ShapeAppearance.Reez.LargeComponent</item>
 
         <!--Typography-->
-        <item name="textAppearanceHeadline2">@style/TextAppearance.Reply.Headline2</item>
-        <item name="textAppearanceHeadline3">@style/TextAppearance.Reply.Headline3</item>
-        <item name="textAppearanceHeadline4">@style/TextAppearance.Reply.Headline4</item>
-        <item name="textAppearanceHeadline5">@style/TextAppearance.Reply.Headline5</item>
-        <item name="textAppearanceHeadline6">@style/TextAppearance.Reply.Headline6</item>
-        <item name="textAppearanceSubtitle1">@style/TextAppearance.Reply.Subtitle1</item>
-        <item name="textAppearanceSubtitle2">@style/TextAppearance.Reply.Subtitle2</item>
-        <item name="textAppearanceBody1">@style/TextAppearance.Reply.Body1</item>
-        <item name="textAppearanceBody2">@style/TextAppearance.Reply.Body2</item>
-        <item name="textAppearanceButton">@style/TextAppearance.Reply.Button</item>
-        <item name="textAppearanceCaption">@style/TextAppearance.Reply.Caption</item>
-        <item name="textAppearanceOverline">@style/TextAppearance.Reply.Overline</item>
+        <item name="textAppearanceHeadline2">@style/TextAppearance.Reez.Headline2</item>
+        <item name="textAppearanceHeadline3">@style/TextAppearance.Reez.Headline3</item>
+        <item name="textAppearanceHeadline4">@style/TextAppearance.Reez.Headline4</item>
+        <item name="textAppearanceHeadline5">@style/TextAppearance.Reez.Headline5</item>
+        <item name="textAppearanceHeadline6">@style/TextAppearance.Reez.Headline6</item>
+        <item name="textAppearanceSubtitle1">@style/TextAppearance.Reez.Subtitle1</item>
+        <item name="textAppearanceSubtitle2">@style/TextAppearance.Reez.Subtitle2</item>
+        <item name="textAppearanceBody1">@style/TextAppearance.Reez.Body1</item>
+        <item name="textAppearanceBody2">@style/TextAppearance.Reez.Body2</item>
+        <item name="textAppearanceButton">@style/TextAppearance.Reez.Button</item>
+        <item name="textAppearanceCaption">@style/TextAppearance.Reez.Caption</item>
+        <item name="textAppearanceOverline">@style/TextAppearance.Reez.Overline</item>
 
         <item name="emphasisHighAlpha">0.87</item>
         <item name="emphasisMediumAlpha">0.60</item>
@@ -54,8 +54,8 @@
         <!--Styles-->
         <item name="bottomAppBarStyle">@style/Widget.MaterialComponents.BottomAppBar.PrimarySurface</item>
         <item name="bottomSheetStyle">@style/Widget.MaterialComponents.BottomSheet.Modal</item>
-        <item name="navigationViewStyle">@style/Widget.Reply.NavigationView</item>
-        <item name="chipStyle">@style/Widget.Reply.Chip.Entry</item>
+        <item name="navigationViewStyle">@style/Widget.Reez.NavigationView</item>
+<!--        <item name="chipStyle">@style/Widget.Reez.Chip.Entry</item>-->
 
         <!--System/Platform attributes-->
         <item name="android:windowBackground">?android:colorBackground</item>

@@ -1,14 +1,133 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    tools:context=".screens.onboard.RegisterFragment">
+    xmlns:app="http://schemas.android.com/apk/res-auto">
 
-    <!-- TODO: Update blank fragment layout -->
-    <TextView
+    <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:text="@string/hello_blank_fragment" />
+        android:background="@color/reez_blue_700"
+        tools:context=".screens.onboard.RegisterFragment">
 
-</FrameLayout>
+        <LinearLayout
+            android:id="@+id/llayout_title_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/grid_1"
+            android:layout_margin="@dimen/grid_1"
+            android:orientation="vertical"
+            android:gravity="center"
+            app:layout_constraintTop_toTopOf="parent"
+            >
+
+            <com.google.android.material.textview.MaterialTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/grid_1"
+                android:fontFamily="@font/work_sans_semibold"
+                android:gravity="center"
+                android:padding="@dimen/grid_1"
+                android:text="@string/signup_welcometext"
+                android:textAppearance="@style/TextAppearance.Reez.Headline6"
+                android:textColor="@color/reez_white_50"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/llayout_sign_up"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/grid_1"
+            android:layout_margin="@dimen/grid_2"
+            android:orientation="vertical"
+            android:gravity="center"
+            app:layout_constraintTop_toBottomOf="@id/llayout_title_text"
+            >
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/til_email"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/email"
+                android:layout_margin="@dimen/grid_2"
+                android:padding="@dimen/grid_1"
+                app:boxStrokeWidth="1dp"
+                app:boxStrokeColor="@color/reez_white_50"
+                app:boxBackgroundMode="outline"
+                android:textColor="@color/reez_white_50"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                >
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:cursorVisible="true"
+                    android:maxLines="1"
+                    android:textColor="@color/reez_white_50"
+                    android:inputType="textEmailAddress"
+                    android:textAppearance="@style/TextAppearance.Reez.Body1"
+                    android:imeOptions="actionNext"
+                    />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/til_password"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/password"
+                android:layout_margin="@dimen/grid_2"
+                android:padding="@dimen/grid_1"
+                app:boxStrokeWidth="1dp"
+                app:boxStrokeColor="@color/reez_white_50"
+                android:textColor="@color/reez_white_50"
+                app:boxBackgroundMode="outline"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                >
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:cursorVisible="true"
+                    android:maxLines="1"
+                    android:inputType="textPassword"
+                    android:textColor="@color/reez_white_50"
+                    android:textAppearance="@style/TextAppearance.Reez.Body1"
+                    android:imeOptions="actionDone"
+                    />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <Button
+                android:id="@+id/btn_sign_up"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/sign_up"
+                android:layout_margin="@dimen/grid_1"
+                android:backgroundTint="@color/reez_orange_500"
+                android:padding="@dimen/grid_2"
+                android:textColor="@color/reez_blue_800"
+                android:textAppearance="@style/TextAppearance.Reez.Button"
+                />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btn_login"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/Widget.MaterialComponents.Button.TextButton"
+            android:text="Have an account? Log in."
+            android:layout_margin="@dimen/grid_1"
+            android:padding="@dimen/grid_2"
+            android:textAppearance="@style/TextAppearance.Reez.Button"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:textColor="@color/reez_white_50"
+            />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>
